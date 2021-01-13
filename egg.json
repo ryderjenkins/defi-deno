@@ -1,0 +1,11 @@
+{
+  "name": "defi",
+  "description": "Decentralized Finance (DeFi) Module",
+  "homepage": "https://github.com/michael-spengler/decentralized-finance",
+  "files": [
+    "./**/*.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "entry": "./mod.ts"
+}
