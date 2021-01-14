@@ -1,3 +1,5 @@
+[![nest badge](https://nest.land/badge.svg)](https://nest.land/package/defi)
+
 # Decentralized Finance (DeFi)
 
 ## Usage example for your code
@@ -31,3 +33,11 @@ If you like my work please consider downloading the brave browser via my
 promotion link: [https://brave.com/fan464](https://brave.com/fan464).
 
 ![![](https://brave.com/)](https://brave.com/wp-content/uploads/2019/01/logotype-full-color.svg)
+
+
+## Learnings Throughout This Project
+### Regarding Nest.land
+If you want to add your nest api key to the repo secrets and do not know where to find it:
+```sh
+nano ~/.nest-api-key
+```

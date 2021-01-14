@@ -1,5 +1,6 @@
 {
   "name": "defi",
+  "version": "0.0.1",
   "description": "Decentralized Finance (DeFi) Module",
   "homepage": "https://github.com/michael-spengler/decentralized-finance",
   "files": [
@@ -7,5 +8,10 @@
     "README.md",
     "LICENSE"
   ],
-  "entry": "./mod.ts"
+  "ignore": [
+    ".git"
+  ],
+  "entry": "./mod.ts",
+  "check": false,
+  "unlisted": false
 }
