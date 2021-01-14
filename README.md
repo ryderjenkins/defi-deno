@@ -13,6 +13,9 @@ console.log(gasPriceInfo)
 
 ```
 
+## More usage examples
+Check the [DeFiService](https://github.com/michael-spengler/defi-deno/blob/main/defi.service.ts) class for more usage examples.
+
 ## Test it via command line
 ```
 deno run --allow-net https://deno.land/x/defi/test-it.ts
