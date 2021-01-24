@@ -8,7 +8,7 @@ const projectPathForData = `${Deno.cwd()}`
 const pathToFile = `${projectPathForData}/favorite-crypto-price-data.json`
 
 startStorePriceDataInterval()
-// getFavoriteCryptoPriceHistory
+// http://openforce.de:3024/getFavoriteCryptoPriceHistory
 app.get("/getFavoriteCryptoPriceHistory", async function (req, res) {
 
     const localFileContent = await Persistence.readFromLocalFile(pathToFile)

@@ -21,7 +21,6 @@ export async function startStorePriceDataInterval() {
         
         await Persistence.saveToLocalFile(pathToFile, JSON.stringify(localFileContent))
         
-        // }, 1000 * 60 * 7) // every seven minutes
-    }, 1000 * 60 * 0.1)
+        }, 1000 * 60 * 7) // every seven minutes
 }
 
