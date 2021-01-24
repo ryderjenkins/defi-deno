@@ -12,3 +12,7 @@ app.get("/getFavoriteCryptoPriceHistory", async function (req, res) {
 
     res.send(localFileContent)
 });
+
+const port = 3024
+app.listen(port)
+console.log(`opine server is listening on http://localhost:${port}`)
