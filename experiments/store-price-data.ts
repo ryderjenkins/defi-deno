@@ -1,7 +1,7 @@
 import { DeFiService } from "../defi.service.ts"
 import { Persistence } from "https://deno.land/x/persistence@1.1.0/persistence.ts"
 
-async function storePriceData() {
+export async function startStorePriceDataInterval() {
     
     setInterval(async () => {
         
@@ -24,7 +24,4 @@ async function storePriceData() {
         // }, 1000 * 60 * 7) // every seven minutes
     }, 1000 * 60 * 0.1)
 }
-
-
-storePriceData()
 
