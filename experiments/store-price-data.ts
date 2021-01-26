@@ -19,6 +19,19 @@ export async function startStorePriceDataInterval() {
             localFileContent = result
         }
         
+        let previousTimeStamp
+        console.log(localFileContent.resultWithoutWarranty.length)
+        const cleared = []
+        for (const e of localFileContent.resultWithoutWarranty) {
+            if (previousTimeStamp === e.timeStamp) {
+                console.log('double')
+            } else {
+                cleared.push(e)
+            }
+            previousTimeStamp = e.timeStamp
+        }
+        localFileContent.resultWithoutWarranty = cleared
+
         await Persistence.saveToLocalFile(pathToFile, JSON.stringify(localFileContent))
         
         }, 1000 * 60 * 7) // every seven minutes
