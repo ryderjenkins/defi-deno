@@ -1,4 +1,5 @@
-
+experiments-nodejs/node_modules
 favorite-crypto-price-data.json
 eggs-debug.log
+experiments-nodejs
 .env

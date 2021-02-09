@@ -1,0 +1,1 @@
+pm2 start defi-server.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-read --allow-run --allow-write"
